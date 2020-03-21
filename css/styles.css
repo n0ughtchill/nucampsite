@@ -51,3 +51,6 @@ header h2 {
 .carousel {
   border: solid #5637dd;
 }
+.btn-cursor {
+  cursor: pointer;
+}
