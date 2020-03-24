@@ -24,7 +24,7 @@ header h2 {
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #000000, #001483, #60106b);
+  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
   color: white;
 }
 
@@ -35,7 +35,7 @@ header h2 {
 }
 
 .navbar {
-  background-color: #ff00c8;
+  background-color: #901cad;
 }
 
 .tab-content {
@@ -50,4 +50,13 @@ header h2 {
 
 .carousel {
   border: solid #5637dd;
+}
+.btn-cursor {
+  cursor: pointer;
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
