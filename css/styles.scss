@@ -1,9 +1,11 @@
+$color-teal: #17A2B8;
 $color-primary: #3046c5;
 $color-secondary: #5637dd;
 $color-pale: #cec8ff;
-$coloc-mid: #901cad;
+$color-mid: #901cad;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0,0,0,0.5);
+
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -49,7 +51,7 @@ body {
   }
   
   .navbar {
-    background-color: $coloc-mid;
+    background-color: $color-mid;
   }
   
   .tab-content {
@@ -73,4 +75,18 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
+  }
+
+  #reserveModal {
+    .modal-header {
+      background-color: $color-teal;
+      color: white;
+    }
+  }
+
+  #loginModal {
+    .modal-header {
+      background-color: $color-mid;
+      color: white;
+    }
   }
